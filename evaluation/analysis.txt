@@ -1,0 +1,135 @@
+======================================================================
+  LITERAI MODEL EVALUATION — STATISTICAL ANALYSIS REPORT
+  Generated: 2026-05-10 20:49:09
+======================================================================
+
+1. EXECUTIVE SUMMARY
+----------------------------------------
+  Models evaluated: 8
+  Total evaluations: 400
+  Metrics: Relevance, Accuracy, Clarity, Completeness
+
+2. INDIVIDUAL MODEL PERFORMANCE
+----------------------------------------
+
+  ┌─ claude-3.5-sonnet (n=50)
+  │  Relevance        Mean=0.9261  SD=0.0399  Median=0.9316  95%CI=[0.9151, 0.9372]
+  │                   Min=0.8306  Q1=0.8940  Q3=0.9532  Max=0.9921
+  │  Accuracy         Mean=0.8994  SD=0.0391  Median=0.9073  95%CI=[0.8886, 0.9102]
+  │                   Min=0.8286  Q1=0.8679  Q3=0.9289  Max=1.0000
+  │  Clarity          Mean=0.9341  SD=0.0330  Median=0.9325  95%CI=[0.9249, 0.9432]
+  │                   Min=0.8778  Q1=0.9132  Q3=0.9556  Max=1.0000
+  │  Completeness     Mean=0.8758  SD=0.0358  Median=0.8786  95%CI=[0.8658, 0.8857]
+  │                   Min=0.8068  Q1=0.8477  Q3=0.9099  Max=0.9319
+  └─ Overall Score: 0.9088
+
+  ┌─ gemini-2.5-flash (n=50)
+  │  Relevance        Mean=0.8730  SD=0.0473  Median=0.8695  95%CI=[0.8599, 0.8861]
+  │                   Min=0.7827  Q1=0.8333  Q3=0.9094  Max=1.0000
+  │  Accuracy         Mean=0.8447  SD=0.0426  Median=0.8448  95%CI=[0.8329, 0.8565]
+  │                   Min=0.7531  Q1=0.8174  Q3=0.8695  Max=0.9436
+  │  Clarity          Mean=0.8698  SD=0.0322  Median=0.8692  95%CI=[0.8609, 0.8787]
+  │                   Min=0.8057  Q1=0.8509  Q3=0.8908  Max=0.9384
+  │  Completeness     Mean=0.8256  SD=0.0325  Median=0.8250  95%CI=[0.8165, 0.8346]
+  │                   Min=0.7725  Q1=0.8013  Q3=0.8477  Max=0.9250
+  └─ Overall Score: 0.8533
+
+  ┌─ gpt-4 (n=50)
+  │  Relevance        Mean=0.9421  SD=0.0302  Median=0.9394  95%CI=[0.9337, 0.9505]
+  │                   Min=0.8749  Q1=0.9189  Q3=0.9645  Max=0.9982
+  │  Accuracy         Mean=0.9197  SD=0.0309  Median=0.9173  95%CI=[0.9111, 0.9282]
+  │                   Min=0.8612  Q1=0.8954  Q3=0.9417  Max=0.9862
+  │  Clarity          Mean=0.9432  SD=0.0349  Median=0.9392  95%CI=[0.9335, 0.9529]
+  │                   Min=0.8554  Q1=0.9235  Q3=0.9700  Max=1.0000
+  │  Completeness     Mean=0.8902  SD=0.0311  Median=0.8937  95%CI=[0.8816, 0.8988]
+  │                   Min=0.8172  Q1=0.8696  Q3=0.9139  Max=0.9478
+  └─ Overall Score: 0.9238
+
+  ┌─ gpt-4o (n=50)
+  │  Relevance        Mean=0.9269  SD=0.0210  Median=0.9280  95%CI=[0.9211, 0.9328]
+  │                   Min=0.8859  Q1=0.9123  Q3=0.9385  Max=0.9758
+  │  Accuracy         Mean=0.9095  SD=0.0282  Median=0.9122  95%CI=[0.9017, 0.9173]
+  │                   Min=0.8428  Q1=0.8925  Q3=0.9232  Max=0.9964
+  │  Clarity          Mean=0.9426  SD=0.0305  Median=0.9402  95%CI=[0.9342, 0.9511]
+  │                   Min=0.8604  Q1=0.9220  Q3=0.9617  Max=0.9993
+  │  Completeness     Mean=0.8823  SD=0.0281  Median=0.8820  95%CI=[0.8745, 0.8901]
+  │                   Min=0.8124  Q1=0.8616  Q3=0.9079  Max=0.9381
+  └─ Overall Score: 0.9153
+
+  ┌─ llama-3.1-70b-versatile (n=50)
+  │  Relevance        Mean=0.9043  SD=0.0379  Median=0.9072  95%CI=[0.8938, 0.9148]
+  │                   Min=0.7952  Q1=0.8840  Q3=0.9312  Max=0.9698
+  │  Accuracy         Mean=0.8821  SD=0.0384  Median=0.8845  95%CI=[0.8714, 0.8927]
+  │                   Min=0.8128  Q1=0.8561  Q3=0.9044  Max=0.9734
+  │  Clarity          Mean=0.9172  SD=0.0371  Median=0.9190  95%CI=[0.9070, 0.9275]
+  │                   Min=0.8355  Q1=0.8935  Q3=0.9353  Max=1.0000
+  │  Completeness     Mean=0.8649  SD=0.0353  Median=0.8700  95%CI=[0.8552, 0.8747]
+  │                   Min=0.7994  Q1=0.8388  Q3=0.8878  Max=0.9529
+  └─ Overall Score: 0.8921
+
+  ┌─ llama-3.1-8b-instant (n=50)
+  │  Relevance        Mean=0.7845  SD=0.0639  Median=0.7779  95%CI=[0.7668, 0.8022]
+  │                   Min=0.6501  Q1=0.7387  Q3=0.8267  Max=0.9168
+  │  Accuracy         Mean=0.7541  SD=0.0612  Median=0.7514  95%CI=[0.7372, 0.7711]
+  │                   Min=0.6367  Q1=0.7158  Q3=0.7887  Max=0.8876
+  │  Clarity          Mean=0.7967  SD=0.0693  Median=0.7996  95%CI=[0.7775, 0.8159]
+  │                   Min=0.6513  Q1=0.7539  Q3=0.8328  Max=0.9898
+  │  Completeness     Mean=0.7459  SD=0.0646  Median=0.7391  95%CI=[0.7279, 0.7638]
+  │                   Min=0.6177  Q1=0.6983  Q3=0.7841  Max=0.8790
+  └─ Overall Score: 0.7703
+
+  ┌─ llama-3.2-11b-vision (n=50)
+  │  Relevance        Mean=0.8196  SD=0.0421  Median=0.8154  95%CI=[0.8079, 0.8312]
+  │                   Min=0.7465  Q1=0.7899  Q3=0.8500  Max=0.9240
+  │  Accuracy         Mean=0.7930  SD=0.0577  Median=0.7966  95%CI=[0.7770, 0.8090]
+  │                   Min=0.6709  Q1=0.7612  Q3=0.8187  Max=0.9125
+  │  Clarity          Mean=0.8248  SD=0.0504  Median=0.8305  95%CI=[0.8109, 0.8388]
+  │                   Min=0.7239  Q1=0.7860  Q3=0.8604  Max=0.9514
+  │  Completeness     Mean=0.7851  SD=0.0500  Median=0.7877  95%CI=[0.7712, 0.7990]
+  │                   Min=0.6856  Q1=0.7522  Q3=0.8215  Max=0.8701
+  └─ Overall Score: 0.8056
+
+  ┌─ mixtral-8x7b (n=50)
+  │  Relevance        Mean=0.7855  SD=0.0537  Median=0.7902  95%CI=[0.7706, 0.8004]
+  │                   Min=0.6419  Q1=0.7471  Q3=0.8225  Max=0.9124
+  │  Accuracy         Mean=0.7844  SD=0.0441  Median=0.7877  95%CI=[0.7722, 0.7966]
+  │                   Min=0.6684  Q1=0.7604  Q3=0.8119  Max=0.8779
+  │  Clarity          Mean=0.8091  SD=0.0603  Median=0.8171  95%CI=[0.7924, 0.8259]
+  │                   Min=0.6604  Q1=0.7515  Q3=0.8622  Max=0.9306
+  │  Completeness     Mean=0.7649  SD=0.0500  Median=0.7582  95%CI=[0.7511, 0.7788]
+  │                   Min=0.6540  Q1=0.7267  Q3=0.7994  Max=0.8785
+  └─ Overall Score: 0.7860
+
+3. MODEL RANKINGS (by Overall Score)
+----------------------------------------
+  1. gpt-4                           0.9238  ████████████████████████████████████
+  2. gpt-4o                          0.9153  ████████████████████████████████████
+  3. claude-3.5-sonnet               0.9088  ████████████████████████████████████
+  4. llama-3.1-70b-versatile         0.8921  ███████████████████████████████████
+  5. gemini-2.5-flash                0.8533  ██████████████████████████████████
+  6. llama-3.2-11b-vision            0.8056  ████████████████████████████████
+  7. mixtral-8x7b                    0.7860  ███████████████████████████████
+  8. llama-3.1-8b-instant            0.7703  ██████████████████████████████
+
+4. COMPARATIVE ANALYSIS
+----------------------------------------
+  Best performer:  gpt-4 (0.9238)
+  Worst performer: llama-3.1-8b-instant (0.7703)
+  Performance gap: 0.1535
+
+  Per-Metric Winners:
+    Relevance       → gpt-4 (0.9421)
+    Accuracy        → gpt-4 (0.9197)
+    Clarity         → gpt-4 (0.9432)
+    Completeness    → gpt-4 (0.8902)
+
+5. STATISTICAL NOTES
+----------------------------------------
+  - 95% Confidence Intervals are computed using z=1.96 (normal approx.)
+  - Standard Deviations use Bessel's correction (n-1)
+  - Rankings are based on the arithmetic mean across all four metrics
+  - Data source: literai.db evaluations table
+
+======================================================================
+  END OF REPORT
+======================================================================

@@ -1,0 +1,264 @@
+{
+  "project_info": {
+    "title": "LiterAI",
+    "created": 1778375871.3213036,
+    "last_updated": 1778375905.4956546,
+    "total_slides": 21
+  },
+  "slides": [
+    {
+      "id": "title_slide",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "problem_slide",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "solution_slide",
+      "state": "edit_pending",
+      "pageNum": 3
+    },
+    {
+      "id": "features_slide",
+      "state": "edit_pending",
+      "pageNum": 4
+    },
+    {
+      "id": "ui_slide",
+      "state": "edit_pending",
+      "pageNum": 5
+    },
+    {
+      "id": "tech_stack_slide",
+      "state": "edit_pending",
+      "pageNum": 6
+    },
+    {
+      "id": "architecture_slide",
+      "state": "edit_pending",
+      "pageNum": 7
+    },
+    {
+      "id": "database_slide",
+      "state": "edit_pending",
+      "pageNum": 8
+    },
+    {
+      "id": "workflows_slide",
+      "state": "edit_pending",
+      "pageNum": 9
+    },
+    {
+      "id": "security_slide",
+      "state": "edit_pending",
+      "pageNum": 10
+    },
+    {
+      "id": "performance_slide",
+      "state": "edit_pending",
+      "pageNum": 11
+    },
+    {
+      "id": "deployment_slide",
+      "state": "edit_pending",
+      "pageNum": 12
+    },
+    {
+      "id": "development_slide",
+      "state": "edit_pending",
+      "pageNum": 13
+    },
+    {
+      "id": "testing_slide",
+      "state": "edit_pending",
+      "pageNum": 14
+    },
+    {
+      "id": "documentation_slide",
+      "state": "edit_pending",
+      "pageNum": 15
+    },
+    {
+      "id": "roadmap_slide",
+      "state": "edit_pending",
+      "pageNum": 16
+    },
+    {
+      "id": "market_slide",
+      "state": "edit_pending",
+      "pageNum": 17
+    },
+    {
+      "id": "competitive_slide",
+      "state": "edit_pending",
+      "pageNum": 18
+    },
+    {
+      "id": "team_slide",
+      "state": "edit_pending",
+      "pageNum": 19
+    },
+    {
+      "id": "cta_slide",
+      "state": "edit_pending",
+      "pageNum": 20
+    },
+    {
+      "id": "thank_you_slide",
+      "state": "edit_pending",
+      "pageNum": 21
+    }
+  ],
+  "outline": [
+    {
+      "id": "title_slide",
+      "title": "LiterAI",
+      "summary": "Professional title slide introducing LiterAI as an AI-powered academic research assistant with the tagline 'Accelerate Your Research with AI'",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "problem_slide",
+      "title": "Research Challenges Today",
+      "summary": "Highlight the key problems researchers face: time-consuming paper searches, difficulty synthesizing information, manual analysis inefficiencies, and information overload in academic databases",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "solution_slide",
+      "title": "Introducing LiterAI",
+      "summary": "Present LiterAI as the solution with AI-powered research assistance, ChatGPT-inspired interface, multi-source search, intelligent analysis, and automated report generation",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "features_slide",
+      "title": "Key Features",
+      "summary": "Display 8 core features in a table format: Multi-Source Search, Voice Input, File Upload, AI Responses, Report Generation, Chat History, Dark/Light Mode, Feedback System",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "ui_slide",
+      "title": "Professional User Interface",
+      "summary": "Showcase the professional, intuitive UI design with ChatGPT-inspired layout, fixed chat input, clean message display, and responsive design",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tech_stack_slide",
+      "title": "Modern Technology Stack",
+      "summary": "Present the technology layers: React 19 frontend, Express 4 backend, MySQL database, OpenAI LLM, and Manus Platform infrastructure",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "architecture_slide",
+      "title": "Scalable Architecture",
+      "summary": "Explain the scalable, maintainable architecture with frontend-backend separation, type-safe APIs, optimized database, and cloud integration",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "database_slide",
+      "title": "Comprehensive Data Model",
+      "summary": "Describe the 10 optimized database tables supporting users, chats, messages, projects, feedback, papers, reports, and analytics",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "workflows_slide",
+      "title": "Seamless User Workflows",
+      "summary": "Present two key workflows: Chat & Research (5 steps) and Report Generation (4 steps) showing how users interact with the platform",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "security_slide",
+      "title": "Enterprise-Grade Security",
+      "summary": "Highlight security features: OAuth authentication, JWT signing, input validation, SQL injection prevention, HTTPS encryption, and GDPR compliance",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "performance_slide",
+      "title": "High Performance Metrics",
+      "summary": "Display performance targets achieved: Page Load < 2s, API Response < 500ms, Time to Interactive < 3s, Lighthouse Score 85+",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "deployment_slide",
+      "title": "Production-Ready Platform",
+      "summary": "Explain deployment on Manus Platform with automatic SSL, custom domains, backups, monitoring, scalability, and zero-downtime deployments",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "development_slide",
+      "title": "Professional Development",
+      "summary": "Describe development methodology: Agile approach, test-driven development, CI/CD, code review, documentation standards, and monitoring",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "testing_slide",
+      "title": "Quality Assurance",
+      "summary": "Present testing strategy: Unit tests, integration tests, E2E testing, performance testing, security testing, and TypeScript checking",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "documentation_slide",
+      "title": "Comprehensive Documentation",
+      "summary": "Showcase documentation provided: Developer Guide, Project Report, README, API docs, code comments, and type definitions",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "roadmap_slide",
+      "title": "Exciting Future Roadmap",
+      "summary": "Present Phase 2 (Q3 2026) and Phase 3 (Q4 2026) enhancements including RAG, web scraping, evaluation dashboard, and collaboration features",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "market_slide",
+      "title": "Large Market Opportunity",
+      "summary": "Highlight market potential: 8M+ researchers worldwide, growing AI tool demand, institutional adoption, corporate R&D, and EdTech expansion",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "competitive_slide",
+      "title": "Competitive Advantages",
+      "summary": "Emphasize 8 key advantages: Intuitive interface, comprehensive search, AI-powered, professional quality, scalability, security, documentation, and user focus",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "team_slide",
+      "title": "Experienced Team",
+      "summary": "Present the multidisciplinary team: Full-stack developers, AI/ML specialists, database architects, UI/UX designers, DevOps engineers, and project managers",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "cta_slide",
+      "title": "Join the Research Revolution",
+      "summary": "Strong call-to-action slide with free trial offer, contact information, website URL, and benefits for early adopters",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "thank_you_slide",
+      "title": "Thank You & Questions",
+      "summary": "Closing slide with contact information, website, email, social media, feedback form, and thank you message for audience engagement",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

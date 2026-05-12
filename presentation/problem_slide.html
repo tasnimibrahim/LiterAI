@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Challenges Today</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Lora:wght@400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #F8FAFC;
+            display: flex;
+            flex-direction: column;
+            padding-top: 60px;
+        }
+        
+        .header-section {
+            padding: 0 60px;
+            margin-bottom: 50px;
+        }
+        
+        .accent-line {
+            width: 4px;
+            height: 50px;
+            background: #0066CC;
+            margin-bottom: 20px;
+        }
+        
+        .slide-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 48px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 10px;
+        }
+        
+        .slide-subtitle {
+            font-family: 'Lora', serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #334155;
+        }
+        
+        .problems-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            padding: 0 60px;
+            flex: 1;
+        }
+        
+        .problem-card {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        
+        .problem-icon {
+            width: 60px;
+            height: 60px;
+            background: #E0E7FF;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            flex-shrink: 0;
+            color: #0066CC;
+        }
+        
+        .problem-content {
+            flex: 1;
+        }
+        
+        .problem-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #0F172A;
+            margin-bottom: 8px;
+        }
+        
+        .problem-description {
+            font-family: 'Lora', serif;
+            font-size: 14px;
+            font-weight: 400;
+            color: #334155;
+            line-height: 1.5;
+        }
+        
+        .full-width {
+            grid-column: 1 / -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header-section">
+            <div class="accent-line"></div>
+            <h1 class="slide-title">Research Challenges Today</h1>
+            <p class="slide-subtitle">The problems researchers face every day</p>
+        </div>
+        
+        <div class="problems-grid">
+            <div class="problem-card">
+                <div class="problem-icon">🔍</div>
+                <div class="problem-content">
+                    <div class="problem-title">Time-Consuming Searches</div>
+                    <div class="problem-description">Researchers spend countless hours searching across multiple databases for relevant papers</div>
+                </div>
+            </div>
+            
+            <div class="problem-card">
+                <div class="problem-icon">📚</div>
+                <div class="problem-content">
+                    <div class="problem-title">Information Synthesis</div>
+                    <div class="problem-description">Difficulty synthesizing and connecting information from multiple research sources</div>
+                </div>
+            </div>
+            
+            <div class="problem-card">
+                <div class="problem-icon">⚙️</div>
+                <div class="problem-content">
+                    <div class="problem-title">Manual Analysis</div>
+                    <div class="problem-description">Manual paper analysis is time-consuming, error-prone, and inefficient</div>
+                </div>
+            </div>
+            
+            <div class="problem-card">
+                <div class="problem-icon">📊</div>
+                <div class="problem-content">
+                    <div class="problem-title">Lack of Tools</div>
+                    <div class="problem-description">Limited intelligent tools available for research synthesis and analysis</div>
+                </div>
+            </div>
+            
+            <div class="problem-card full-width">
+                <div class="problem-icon">💾</div>
+                <div class="problem-content">
+                    <div class="problem-title">Information Overload</div>
+                    <div class="problem-description">Academic databases contain millions of papers, making it overwhelming to find relevant research</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
